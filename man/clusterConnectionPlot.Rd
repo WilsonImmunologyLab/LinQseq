@@ -4,8 +4,14 @@
 \alias{clusterConnectionPlot}
 \title{clusterConnectionPlot}
 \usage{
-clusterConnectionPlot(object = NULL, assay = "Joint", cutoff = 0,
-  line.color = "black", point.size = 2, path.size = 1.5)
+clusterConnectionPlot(
+  object = NULL,
+  assay = "Joint",
+  cutoff = 0,
+  line.color = "black",
+  point.size = 2,
+  path.size = 1.5
+)
 }
 \arguments{
 \item{object}{seurat object}

@@ -6,20 +6,35 @@
 \alias{buildPG}
 \title{buildPG.Seurat}
 \usage{
-\method{buildPG}{Seurat}(object, assay = "Joint", reduction = NULL,
-  pg.nodes = NULL, pg.min.nodes = 30, pg.Lambda = 0.03,
-  pg.Mu = 0.01, trimming.radius = Inf, final.energy = "Penalized",
-  initial.MST = FALSE)
+\method{buildPG}{Seurat}(
+  object,
+  assay = "Joint",
+  reduction = NULL,
+  pg.nodes = NULL,
+  pg.min.nodes = 30,
+  pg.Lambda = 0.03,
+  pg.Mu = 0.01,
+  trimming.radius = Inf,
+  final.energy = "Penalized",
+  initial.MST = FALSE
+)
 
-\method{buildPG}{default}(object, mst = NULL, pg.nodes = NULL,
-  pg.min.nodes = 30, pg.Lambda = 0.03, pg.Mu = 0.01,
-  trimming.radius = Inf, final.energy = "Penalized",
-  initial.MST = FALSE)
+\method{buildPG}{default}(
+  object,
+  mst = NULL,
+  pg.nodes = NULL,
+  pg.min.nodes = 30,
+  pg.Lambda = 0.03,
+  pg.Mu = 0.01,
+  trimming.radius = Inf,
+  final.energy = "Penalized",
+  initial.MST = FALSE
+)
 
 buildPG(object, ...)
 }
 \arguments{
-\item{object}{(For Seurat) Seurat object}
+\item{object}{(For default) cell embedding}
 
 \item{assay}{(For Seurat) user choose the assay data they want to build a MST based on, can be RNA, ADT, Joint or All (All means calculate all three)}
 
@@ -38,8 +53,6 @@ buildPG(object, ...)
 \item{initial.MST}{use MST as initial for PG or not. default is FALSE because use MST as initial is time consuming for large dataset}
 
 \item{mst}{(For default) MST for building PG}
-
-\item{object}{(For default) cell embedding}
 }
 \description{
 build PG based on user's choice (RNA, ADT, Joint or All) MST

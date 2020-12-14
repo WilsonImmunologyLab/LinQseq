@@ -4,8 +4,13 @@
 \alias{pseudoTime}
 \title{pseudoTime}
 \usage{
-pseudoTime(object, method = c("MST", "KNN"), assay = "Joint",
-  root.cluster = NULL, percentile.cutoff = 0.99)
+pseudoTime(
+  object,
+  method = c("MST", "KNN"),
+  assay = "Joint",
+  root.cluster = NULL,
+  percentile.cutoff = 0.99
+)
 }
 \arguments{
 \item{object}{Seurat object}

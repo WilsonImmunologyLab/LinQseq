@@ -4,8 +4,12 @@
 \alias{findRootNodeID}
 \title{findRootNodeID}
 \usage{
-findRootNodeID(dist = NULL, root.cluster.index = NULL,
-  other.cluster.index = NULL, option = 1)
+findRootNodeID(
+  dist = NULL,
+  root.cluster.index = NULL,
+  other.cluster.index = NULL,
+  option = 1
+)
 }
 \arguments{
 \item{dist}{a MST}

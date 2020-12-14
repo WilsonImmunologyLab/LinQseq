@@ -4,8 +4,13 @@
 \alias{pseudoTimePlotKNN}
 \title{pseudoTimePlotKNN}
 \usage{
-pseudoTimePlotKNN(object = NULL, assay = "Joint", colors = c("blue",
-  "green", "yellow", "red"), line.size = 0.5, line.color = "gray")
+pseudoTimePlotKNN(
+  object = NULL,
+  assay = "Joint",
+  colors = c("blue", "green", "yellow", "red"),
+  line.size = 0.5,
+  line.color = "gray"
+)
 }
 \arguments{
 \item{object}{seurat object}

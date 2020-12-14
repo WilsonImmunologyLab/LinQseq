@@ -4,8 +4,13 @@
 \alias{pseudoTimePlotMST}
 \title{pseudoTimePlotMST}
 \usage{
-pseudoTimePlotMST(object = NULL, assay = NULL, colors = c("blue",
-  "green", "yellow", "red"), line.size = 0.5, line.color = "gray")
+pseudoTimePlotMST(
+  object = NULL,
+  assay = NULL,
+  colors = c("blue", "green", "yellow", "red"),
+  line.size = 0.5,
+  line.color = "gray"
+)
 }
 \arguments{
 \item{object}{seurat object}

@@ -4,8 +4,12 @@
 \alias{trajectoryPlotMST}
 \title{trajectoryPlotMST}
 \usage{
-trajectoryPlotMST(object = NULL, assay = "Joint", line.size = 0.5,
-  line.color = "gray")
+trajectoryPlotMST(
+  object = NULL,
+  assay = "Joint",
+  line.size = 0.5,
+  line.color = "gray"
+)
 }
 \arguments{
 \item{object}{seurat object}

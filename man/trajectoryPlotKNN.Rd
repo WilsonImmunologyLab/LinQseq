@@ -4,8 +4,12 @@
 \alias{trajectoryPlotKNN}
 \title{trajectoryPlotKNN}
 \usage{
-trajectoryPlotKNN(object = NULL, assay = "Joint", line.size = 0.5,
-  line.color = "gray")
+trajectoryPlotKNN(
+  object = NULL,
+  assay = "Joint",
+  line.size = 0.5,
+  line.color = "gray"
+)
 }
 \arguments{
 \item{object}{seurat object}
